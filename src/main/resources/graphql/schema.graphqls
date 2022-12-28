@@ -1,0 +1,11 @@
+type Book {
+    isbn: String
+    name: String
+    author: String
+    price: Float
+}
+
+type Query {
+    findAllBooks: [Book]
+}
+
